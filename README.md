@@ -26,41 +26,55 @@ A través de la implementación práctica de Git y GitHub, se pretende aprender 
 
 ## Instalación de Git en Windows  
 Dirígete al sitio web oficial de Git _(haciendo clic en el icono de git que aparece abajo):_ 
+
 [![Imagen Git](https://i.imgur.com/6ew7sk8.png)](https://git-scm.com/downloads/win)
 - Haz clic en "Click here to download" si tienes Windows y tu ordenador usa 64bits, si no tendras que revisar cual intalador necesitas de la lista de abajo 
 ![Texto alternativo](https://i.imgur.com/1WX2ar4.png)
 - Ejecuta el archivo descargado y sigue los pasos del instalador. Asegúrate de seleccionar las opciones predeterminadas si no estás seguro de qué elegir.
 - Una vez finalizada la instalación, abre Git Bash (una terminal de comandos especial para Git) desde el menú de inicio y verifica que Git está instalado correctamente ejecutando el siguiente comando:
+  
 ![Texto alternativo](https://i.imgur.com/D1bNQug.png)
 ### Configurar Git
 - Abre la terminal o Git Bash y ejecuta los siguientes comandos, reemplazando Tu Nombre y tu-email@ejemplo.com por tu información personal:
+  
 ![Texto alternativo](https://i.imgur.com/NMOpFx0.png)
+
 ### Clonar un repositorio a tu máquina local
 Ahora que tienes un repositorio en GitHub, puedes clonar una copia de él en tu ordenador para empezar a trabajar en el proyecto.
 - Abre la terminal o Git Bash y navega hasta el directorio donde quieras clonar el repositorio.
 - Usa el siguiente comando (reemplaza URL_DEL_REPOSITORIO con la URL de tu repositorio en GitHub):
+  
 ![Texto alternativo](https://i.imgur.com/Chk3Y6P.png)
+
 como ejemplo:
+
 ![Texto alternativo](https://i.imgur.com/Qn2vIbm.png)
 ### Realizar cambios y guardarlos
 - Realizar cambios en los archivos: Edita los archivos del proyecto con tu editor de texto o IDE favorito.
 - Añadir los cambios a Git: Una vez que hayas realizado cambios, utiliza los siguientes comandos para añadir y confirmar los cambios.
 Para añadir los cambios, ejecuta:
+
 ![Texto alternativo](https://i.imgur.com/azlR9YV.png)
+
 Para confirmar los cambios (hacer un commit), ejecuta:
+
 ![Texto alternativo](https://i.imgur.com/7bwcaye.png)
 
 Subir los cambios a GitHub: Después de hacer un commit, puedes subir tus cambios a GitHub usando:
+
 ![Texto alternativo](https://i.imgur.com/SrZURhg.png)
 
 Cambia a la rama principal:
+
 ![Texto alternativo](https://i.imgur.com/mKb1k49.png)
 
 Luego, fusiona los cambios de la otra rama:
+
 ![Texto alternativo](https://i.imgur.com/bX9bKHs.png)
 
 ### Crear una nueva rama (branch)
 Si quieres trabajar en una nueva funcionalidad sin afectar la rama principal, crea una nueva rama de la siguiente forma:
+
 ![Texto alternativo](https://i.imgur.com/BnSoD88.png)
 
 ## Requisitos previos
@@ -78,6 +92,7 @@ Linux (cualquier distribución moderna)
 
 ### **- Instalación de Git**
 Git es una herramienta fundamental para el control de versiones y es indispensable para interactuar con repositorios tanto locales como remotos. Asegúrate de tener Git instalado y correctamente configurado.
+
 ![Texto alternativo](https://i.imgur.com/D1bNQug.png)
 
 ### **- Cuenta en GitHub**
